@@ -1,0 +1,17 @@
+INSERT INTO Sales (Cust_Id, Item ) VALUES
+(102, 'Computer'),
+(103, 'Moniter'),
+(103, 'Printer'),
+(104, 'Camera');
+
+SELECT*
+FROM Customers, Sales;
+
+SELECT*
+FROM Customers
+JOIN Sales ON Customers.Cust_Id = Sales.Cust_Id;
+
+CREATE TABLE Sales1 (
+    Cust_Id INT,
+    Cust_Name VCHAR(10)
+);
