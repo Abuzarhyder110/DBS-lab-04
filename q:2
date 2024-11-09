@@ -1,0 +1,10 @@
+CREATE TABLE Customers (
+    Cust_Id INT PRIMARY KEY,
+    Cust_Id VCHAR(10)
+);
+
+CREATE TABLE Sales (
+    Cust_Id INT, 
+    Item VCHAR(10)
+    FOREIGN KEY (Cust_Id) REFERENCES Customers(Cust_Id)
+);
