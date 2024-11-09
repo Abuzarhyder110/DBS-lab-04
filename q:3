@@ -1,0 +1,4 @@
+INSERT INTO Customers (Cust_Id, Cust_Name) VALUES
+(101, 'Ahmed'),
+(102, 'Kamran'),
+(103, 'Faizan');
